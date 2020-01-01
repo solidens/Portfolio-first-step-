@@ -41,9 +41,9 @@ body {
   background-image: url("img/icon-email-header.svg");
 }
 
-.header-phone {
+.header-telegram {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("img/icon-telegram-header.svg");
 }
 
 .hero-image {
@@ -189,7 +189,7 @@ body {
   background-image: url("img/icon-email-footer.svg");
 }
 
-.footer-phone {
+.footer-telegram {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("img/icon-telegram-footer.svg");
 }
