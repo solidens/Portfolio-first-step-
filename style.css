@@ -244,21 +244,21 @@
 }
 
 .dark-theme .theme-button {
-  padding: 30px 30px; 
+  padding: 35px 35px; 
   margin-top: 22vh;
   margin-left: 92vw;
   display: inline-block;
-  border-radius: 35px;
+  border-radius: 10px;
   background-image: url(img/sun.svg);
   background-size: cover;
 }
 
 .light-theme .theme-button {
-  padding: 30px 30px; 
+  padding: 35px 35px; 
   margin-top: 22vh;
   margin-left: 92vw;
   display: inline-block;
-  border-radius: 35px;
+  border-radius: 10px;
   background-image: url(img/moon.svg);
   background-size: cover;
 }
