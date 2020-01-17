@@ -14,7 +14,7 @@
   <header class="page-header">
     <div class="container">
       <a class="header-email" href="mailto:solodkovskiy@gmail.com">solodkovskiy@gmail.com</a>
-      <a class="header-telegram" href="https://telete.in/solidens">@solidens</a>
+      <a class="header-telegram" href="https://telete.in/solodkovskiy">@solodkovskiy</a>
   </header>
 
   <section class="hero-image">
@@ -22,7 +22,7 @@
       <h1 class="heading">Денис Солодковский</h1>
       <p>Junior верстальщик</p>
     </div>
-    <button class="theme-button" type="button"></button>
+    <button class="theme-button"></button> 
   </section>
 
   <section class="intro">
@@ -68,10 +68,17 @@
   <footer class="page-footer">
     <div class="container">
       <a class="footer-email" href="mailto:solodkovskiy@gmail.com">solodkovskiy@gmail.com</a>
-      <a class="footer-telegram" href="https://telete.in/solidens">@solidens</a>
+      <a class="footer-telegram" href="https://telete.in/solodkovskiy">@solodkovskiy</a>
     </div>
   </footer>
-  <script scr='script.js'>
+  <script type='text/javascript'>
+    let page = document.querySelector('.page');
+let themeButton = document.querySelector('.theme-button');
+
+themeButton.onclick = function () {
+  page.classList.toggle('dark-theme');
+  page.classList.toggle('light-theme');
+};
   </script>
 </body>
 

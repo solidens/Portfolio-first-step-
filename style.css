@@ -11,7 +11,7 @@
   background-position: top center;
 }
 
-.light-theme{
+.light-theme {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -65,7 +65,7 @@
 .dark-theme .header-telegram {
   padding-left: 25px;
   background-image: url("img/icon-telegram-dark.svg");
-} 
+}
 
 .light-theme .header-email {
   padding-left: 30px;
@@ -117,7 +117,7 @@
   text-align: center;
 }
 
-.dark-theme .subheading {
+.light-theme .subheading {
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
@@ -244,21 +244,31 @@
 }
 
 .dark-theme .theme-button {
-  padding: 35px 35px; 
-  margin-top: 22vh;
-  margin-left: 92vw;
-  display: inline-block;
-  border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    background: rgba(77, 27, 93, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 23px 23px;
+    font-size: 17px;
+    border-radius: 25px;
   background-image: url(img/sun.svg);
   background-size: cover;
 }
 
 .light-theme .theme-button {
-  padding: 35px 35px; 
-  margin-top: 22vh;
-  margin-left: 92vw;
-  display: inline-block;
-  border-radius: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+  background: rgba(77, 27, 93, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 23px 23px;
+  font-size: 17px;
+  border-radius: 25px;
   background-image: url(img/moon.svg);
   background-size: cover;
 }
